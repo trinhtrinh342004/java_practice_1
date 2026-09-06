@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TS_01_LOGIN">
+    <test name="Test Suite Login Demo">
+        <parameter name="browser" value="chromium"/>
+        <classes>
+            <class name="org.practice.saucedemo.ui.login.TC001_VerifyLoginWithMultipleUserTypes"/>
+        </classes>
+    </test>
+</suite>
