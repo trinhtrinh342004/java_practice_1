@@ -35,6 +35,9 @@ build/
 # Logs
 *.log
 
+# Local test tooling
+.allure/
+
 ### VS Code ###
 .vscode/
 
